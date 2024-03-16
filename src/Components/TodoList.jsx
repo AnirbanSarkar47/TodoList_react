@@ -6,7 +6,7 @@ function TodoLIst() {
   const [listdata,setListdata]= useState([]);
   
 
-
+  // main logic to add data in list
   function addActivity(){
     // setList([...list,activity])
     // console.log(list);
@@ -29,6 +29,7 @@ function TodoLIst() {
 
   }
 
+  // to remove data from list
   function remove(i){
     const updatedListData = listdata.filter((e,id)=>{
         console.log(i!=id);
@@ -42,6 +43,7 @@ function TodoLIst() {
 
   }
 
+  //  remove all data at once
   function removeall(){
     setListdata([])
 
