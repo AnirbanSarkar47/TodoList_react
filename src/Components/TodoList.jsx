@@ -75,7 +75,7 @@ function TodoLIst() {
             )
           })}
 
-          {listdata.length>=1 && <button id='btn3' onClick={removeall}>Remove All</button> }
+          {listdata.length >=1 && <button id='btn3' onClick={removeall}>Remove All</button> }
          
         </div>
         
